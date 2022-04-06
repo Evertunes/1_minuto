@@ -11,57 +11,137 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>1 Minuto com Deus</title>
   </head>
   <body>
-
-   <header>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <header>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/biblia.jpg" class="d-block w-100" alt="...">
+            <img src="./img/biblia.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h1>Palavra do dia:</h1>
+              <a href="#pd"><h1>Palavra do dia:</h1></a>
               <p>João 3:16</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/xicara.jpg" class="d-block w-100" alt="...">
+            <img src="./img/xicara.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h1>Devocional</h1>
+              <a href="#devo"><h1>Devocional</h1></a>
               <p>Comece seu dia com seu devocional em 1 minuto</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/pordosol.jpg" class="d-block w-100" alt="...">
+            <img src="./img/pordosol.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <h1>Agradecendo</h1>
+              <a href="#agrad"><h1>Agradecendo</h1></a>
               <p>Hora de agradecer pelo dia de hoje</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-   </header>
+    </header>
 
+    <main>
+      <section class="palavra">
+        <div><h2 id="pd">Palavra do dia</h2></div>
+        <div><h4>João 3.16</h4></div>
+        <div class="limite">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            rerum alias laudantium delectus ratione perspiciatis est quisquam
+            magnam pariatur corporis dicta laborum ab sunt possimus non ipsum,
+            officia deleniti praesentium. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Doloribus, et modi ut non ducimus numquam dolores
+            totam, impedit sit suscipit officia, aut voluptates aliquid
+            distinctio harum! Eveniet facere quo sed.
+          </p>
+        </div>
+      </section>
 
+      <section class="devocional">
+        <div><h2 id="devo">Devocional</h2></div>
+        <div><h4>Você tem um minuto?</h4></div>
+        <div class="limite">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            magni quos in repudiandae praesentium soluta ullam tempore possimus?
+            Quod magnam excepturi nam reprehenderit expedita aspernatur neque
+            eius deserunt exercitationem rem!
+          </p>
+        </div>
 
+        <div class="limite"><iframe
+          width="880"
+          height="495"
+          src="https://www.youtube.com/embed/HN3sJGJ0jAE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+    </div>
+      </section>
 
+      <section class="agradecendo">
+        <div><h2 id="agrad">Agradecendo</h2></div>
+        <div><h4>Agradeça a Deus pelo dia de hoje</h4></div>
+        <div class="limite">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum 
+                perferendis praesentium assumenda, enim reprehenderit amet veritatis 
+                nam obcaecati necessitatibus possimus, vero at placeat. Ea perferendis
+                 voluptas voluptatum excepturi laudantium consequatur?
+            </p>
+        </div>
 
-
+      </section>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
