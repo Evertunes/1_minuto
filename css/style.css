@@ -30,6 +30,29 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: beige;
+}
+
+html {
+  font-size: 18px;
+}
+
+.carousel-inner {
+  display: flex;
+}
+.carousel-inner .titulo {
+  width: 100%;
+  position: absolute;
+  align-self: flex-start;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.carousel-inner .titulo #title {
+  font-size: 4rem;
+}
 .carousel-inner a {
   text-decoration: none;
   color: white;
@@ -83,4 +106,11 @@ img {
 }
 .agradecendo p {
   margin-top: 5%;
+}
+
+footer {
+  background-color: rgba(97, 3, 3, 0.907);
+  width: 100%;
+  height: 250px;
+  margin-top: 20%;
 }/*# sourceMappingURL=style.css.map */
